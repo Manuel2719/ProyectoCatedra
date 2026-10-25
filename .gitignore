@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.wsuo
+*.user
+
+# Archivos compilados
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Bases de datos locales
+*.mdf
+*.ldf
+
+# Archivos temporales
+*.tmp
+*.log

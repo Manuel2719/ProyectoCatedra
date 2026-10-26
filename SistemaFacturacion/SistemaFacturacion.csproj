@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\OneDrive\Desktop\Form1f.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="..\..\..\..\OneDrive\Desktop\Form1f.Designer.cs">
-      <DependentUpon>Form1f.cs</DependentUpon>
-    </Compile>
+	  <Compile Include="Form1f.cs">
+		  <SubType>Form</SubType>
+	  </Compile>
+	  <Compile Include="Form1f.Designer.cs">
+		  <DependentUpon>Form1f.cs</DependentUpon>
+	  </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\OneDrive\Desktop\Form1f.resx">
-      <DependentUpon>Form1f.cs</DependentUpon>
-    </EmbeddedResource>
+	  <EmbeddedResource Include="Form1f.resx">
+		  <DependentUpon>Form1f.cs</DependentUpon>
+	  </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

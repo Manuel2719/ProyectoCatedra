@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data;
-// Esta librería permite comunicar el programa con SQL Server
 using System.Data.SqlClient;
 using System.Text;
 using System.Windows.Forms;
@@ -20,6 +19,28 @@ namespace SistemaFacturacion
         public Form1()
         {
             InitializeComponent();
+            this.Height = 650;
+
+            Button btnAdministrar = new Button();
+
+            btnAdministrar.Text = "Administrar productos";
+            btnAdministrar.Width = 180;
+            btnAdministrar.Height = 40;
+            btnAdministrar.Left = 20;
+            btnAdministrar.Left = 20;
+            btnAdministrar.Top = 450;
+
+            btnAdministrar.Click += (sender, e) =>
+            {
+                using (FrmProductos ventana = new FrmProductos())
+                {
+                    ventana.ShowDialog();
+                }
+
+                CargarProductos();
+            };
+
+            Controls.Add(btnAdministrar);
         }
 
         // Esto se ejecuta automáticamente al abrir la aplicación

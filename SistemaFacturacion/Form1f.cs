@@ -485,5 +485,13 @@ namespace SistemaFacturacion
                 CalcularTotales();
             }
         }
+
+        private void btnAutores_Click(object sender, EventArgs e)
+        {
+            using (frmAutores autores = new frmAutores())
+            {
+                autores.ShowDialog(this);
+            }
+        }
     }
 }

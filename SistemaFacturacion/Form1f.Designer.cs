@@ -42,6 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtProducto = new System.Windows.Forms.TextBox();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnAutores = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalle)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,12 +190,29 @@
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnAutores
+            // 
+            this.btnAutores.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnAutores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAutores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAutores.ForeColor = System.Drawing.Color.White;
+            this.btnAutores.Location = new System.Drawing.Point(712, 24);
+            this.btnAutores.Name = "btnAutores";
+            this.btnAutores.Size = new System.Drawing.Size(135, 38);
+            this.btnAutores.TabIndex = 14;
+            this.btnAutores.Text = "Acerca de";
+            this.btnAutores.UseVisualStyleBackColor = false;
+            this.btnAutores.Click += new System.EventHandler(this.btnAutores_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Honeydew;
-            this.ClientSize = new System.Drawing.Size(658, 580);
+
+this.BackColor = System.Drawing.Color.Honeydew;
+this.ClientSize = new System.Drawing.Size(859, 789);
+this.Controls.Add(this.btnAutores);
+
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -233,6 +251,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtProducto;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnAutores;
     }
 }
 
